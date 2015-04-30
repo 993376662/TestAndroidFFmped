@@ -71,7 +71,7 @@ include $(PREBUILT_SHARED_LIBRARY)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE    := ffmpeg_codec
-LOCAL_SRC_FILES := mainc.c utils.c
+LOCAL_SRC_FILES := cn_dennishucd_FFmpegNative.c
 
 #LOCAL_LDLIBS := -llog-ljnigraphics -lz -landroid
 
